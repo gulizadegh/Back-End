@@ -1,0 +1,22 @@
+Console.WriteLine("bal daxil edin");
+int bal = Convert.ToInt32(Console.ReadLine());
+
+if (bal > 0 && bal <= 100)
+{
+    if (bal > 90)
+        Console.WriteLine("A");
+    else if (bal > 80)
+        Console.WriteLine("B");
+    else if (bal > 70)
+        Console.WriteLine("C");
+    else if (bal > 60)
+        Console.WriteLine("D");
+    else if (bal>50) 
+        Console.WriteLine("E");
+    else
+        Console.WriteLine("Kesildiniz");
+
+}
+
+else
+    Console.WriteLine("duzgun bal daxil edin");
