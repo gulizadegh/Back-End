@@ -1,0 +1,19 @@
+using System.Xml;
+
+Console.WriteLine("Eded daxil edin");
+int eded = Convert.ToInt32(Console.ReadLine());
+
+if (eded > 0)
+{
+    if (eded % 21 == 0)
+    {
+        Console.WriteLine("eded 7 ve 3 e bolunur");
+    }
+    else
+    {
+        Console.WriteLine("eded 7 ve 3 e bolunmur");
+    }
+}   
+
+else
+    Console.WriteLine("eded musbet deyil");
